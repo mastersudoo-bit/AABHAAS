@@ -37,7 +37,7 @@ Aabhaas focuses on bridging the gap between patients and rehabilitation professi
      ┌─────────┴─────────┐
      ▼                   ▼
 ┌───────────┐     ┌──────────────┐
-│  Database │     │   AI/ML मॉड्यूल │
+│  Database │     │     AI/ML    │
 │ (Storage) │     │ (Prediction) │
 └───────────┘     └──────────────┘
 ```
