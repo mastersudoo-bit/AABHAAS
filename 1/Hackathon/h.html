@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Child Wellness Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-pink-100 to-yellow-100 font-sans min-h-screen">
+  <div class="container mx-auto px-4 py-8">
+    <!-- Header -->
+    <header class="flex justify-between items-center bg-yellow-200 rounded-xl shadow-md p-6">
+      <h1 class="text-3xl md:text-4xl font-bold text-pink-600 flex items-center gap-3">
+        🧸 Aabhash Wellness
+      </h1>
+      <button class="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-5 py-2 rounded-full">Logout</button>
+    </header>
+
+    <!-- Overview Cards -->
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+      <div class="bg-white rounded-2xl shadow p-5 text-center">
+        <h2 class="text-lg font-semibold text-pink-600">💓 Heart Rate</h2>
+        <p class="text-4xl font-bold text-red-400 mt-2">86 bpm</p>
+        <p class="text-xs text-gray-400">Target: 70–100 bpm</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-5 text-center">
+        <h2 class="text-lg font-semibold text-pink-600">📊 BMI</h2>
+        <p class="text-4xl font-bold text-green-400 mt-2">18.3</p>
+        <p class="text-xs text-gray-400">Ideal for age 6–10</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-5 text-center">
+        <h2 class="text-lg font-semibold text-pink-600">🩺 Blood Pressure</h2>
+        <p class="text-4xl font-bold text-yellow-500 mt-2">108/72</p>
+        <p class="text-xs text-gray-400">Healthy range</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-5 text-center">
+        <h2 class="text-lg font-semibold text-pink-600">👣 Steps</h2>
+        <p class="text-4xl font-bold text-blue-400 mt-2">8,400</p>
+        <p class="text-xs text-gray-400">Goal: 10,000</p>
+      </div>
+    </section>
+
+    <!-- Charts Section -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="text-xl font-semibold text-purple-600 mb-3">🌈 Weekly Activity</h3>
+        <div class="h-52 bg-purple-100 rounded-lg flex items-center justify-center text-purple-400">
+          Activity Chart
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="text-xl font-semibold text-rose-600 mb-3">🍽️ Nutrition Tracker</h3>
+        <div class="h-52 bg-rose-100 rounded-lg flex items-center justify-center text-rose-400">
+          Nutrition Chart
+        </div>
+      </div>
+    </section>
+
+    <!-- Health Logs -->
+    <section class="bg-white rounded-2xl shadow mt-10 p-6">
+      <h3 class="text-2xl font-semibold text-pink-600 mb-4">📘 Daily Logs</h3>
+      <table class="w-full table-auto text-sm">
+        <thead class="text-left text-gray-500 bg-gray-100">
+          <tr>
+            <th class="py-2 px-4">Date</th>
+            <th class="py-2 px-4">Activity</th>
+            <th class="py-2 px-4">Value</th>
+            <th class="py-2 px-4">Remarks</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-700">
+          <tr class="border-t">
+            <td class="py-2 px-4">2025-05-07</td>
+            <td class="py-2 px-4">Blood Sugar</td>
+            <td class="py-2 px-4">93 mg/dL</td>
+            <td class="py-2 px-4 text-green-500">Normal</td>
+          </tr>
+          <tr class="border-t">
+            <td class="py-2 px-4">2025-05-06</td>
+            <td class="py-2 px-4">Sleep Duration</td>
+            <td class="py-2 px-4">9 hrs</td>
+            <td class="py-2 px-4 text-green-500">Excellent</td>
+          </tr>
+          <tr class="border-t">
+            <td class="py-2 px-4">2025-05-05</td>
+            <td class="py-2 px-4">Mood</td>
+            <td class="py-2 px-4">Joyful 😀</td>
+            <td class="py-2 px-4 text-blue-500">Great</td>
+          </tr>
+          <tr class="border-t">
+            <td class="py-2 px-4">2025-05-04</td>
+            <td class="py-2 px-4">Water Intake</td>
+            <td class="py-2 px-4">6 cups</td>
+            <td class="py-2 px-4 text-yellow-500">Needs Improvement</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+
+</html>
+

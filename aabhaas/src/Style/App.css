@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header.hero {
+    background: #F8F5EE;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h1 {
+    margin-bottom: 10px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #a94442;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    background: #ffd967b9;
+  }
+  
+  .gallery img {
+      width: 100%;    
+      height: auto;   
+  }
+  
+  
+  .solutions {
+    background: #76d896;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #f7eedba1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .categories {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 2000px;
+    width: 40%;
+    margin: auto;
+  }
+  
+  .joy {
+      text-decoration: none;
+      color :#ffffff;
+  }
+  
+  .category {
+    margin-bottom: 30px;
+  }
+  
+  .category button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #c44;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    
+  }
+  
+  .journey, .resources {
+    padding: 40px 20px;
+    background: #F8F5EE;
+  }
+  
+  .resources ol {
+    padding-left: 20px;
+  }
+  
+  footer {
+    background: #11467C;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  footer nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  

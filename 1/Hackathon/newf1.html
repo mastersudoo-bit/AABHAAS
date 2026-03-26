@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AABHAAS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .animate-background-move {
+      background-size: 200% 200%;
+      animation: backgroundMove 10s linear infinite;
+    }
+
+    @keyframes backgroundMove {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    @keyframes spinSlow {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .animate-spin-slow {
+      animation: spinSlow 4s linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-cream font-sans text-gray-800">
+  <!-- Hero -->
+  <section class="text-center py-10 bg-white">
+    <h1 class="text-3xl font-bold">AABHAAS</h1>
+    <h2 class="text-xl font-semibold mt-2">Every Child Deserves the Right Start</h2>
+    <p class="mt-2 text-sm text-gray-600">Helping parents recognize, understand, and address the developmental needs of children.</p>
+    <a href="loginpage.html" class="mt-4 inline-block px-4 py-2 bg-red-700 text-white rounded hover:bg-red-800">Start your journey</a>
+  </section>
+
+  <!-- Images Row -->
+  <div class="grid grid-cols-6 gap-1 bg-yellow-200 p-2">
+    <img src="https://images.pexels.com/photos/15784881/pexels-photo-15784881/free-photo-of-a-little-girl-in-denim-overalls-and-a-jacket-standing-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+    <img src="https://images.pexels.com/photos/29622321/pexels-photo-29622321/free-photo-of-young-boy-blowing-bubbles-outdoors.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+    <img src="https://images.pexels.com/photos/11344271/pexels-photo-11344271.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+    <img src="https://images.pexels.com/photos/3619972/pexels-photo-3619972.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+    <img src="https://images.pexels.com/photos/2802368/pexels-photo-2802368.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+    <img src="https://images.pexels.com/photos/16978444/pexels-photo-16978444/free-photo-of-babyphotography-hasmukh_abchung_photography-hasmukh_abchung-motherhood-instababy-mama-boy-kidsfashion-smile-bhfyp-newbornphotography-babymodel-o-babyshop-children-m-life.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+  </div>
+
+  <!-- Services -->
+  <section class="bg-green-300 text-center py-10">
+    <h3 class="text-xl font-semibold mb-6">We provide a wide range of solutions for rehab children</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
+      <div class="bg-green-100 p-4 rounded shadow">
+        <h4 class="font-bold">Identify Problem</h4>
+        <p>Clarify developmental gaps with professional insights.</p>
+      </div>
+      <div class="bg-green-100 p-4 rounded shadow">
+        <h4 class="font-bold">Free Resources</h4>
+        <p>Guides, tips, and checklists for parents.</p>
+      </div>
+      <div class="bg-green-100 p-4 rounded shadow">
+        <h4 class="font-bold">Action Plans</h4>
+        <p>Steps to improve and support development.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Section -->
+  <h2 class="text-3xl font-bold"><strong><center>Child Development Areas </center></strong></h2>
+  <section class="relative overflow-hidden">
+    
+    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 animate-background-move z-0"></div>
+    <div class="relative z-10 p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+        <!--speech lang-->
+      <div class="bg-white shadow-xl hover:scale-105 transition-transform duration-300 p-6 rounded">
+        <div class="mb-4 text-blue-500 text-3xl">🗣️</div>
+        <h2 class="text-xl font-bold mb-2">Speech & Language</h2>
+        <p class="text-gray-700 mb-4">Enhancing communication skills, speech clarity, and language comprehension.</p>
+        <button class="border px-4 py-2 rounded"><a href="explore.html">Explore More</a></button>
+      </div>
+
+      <!--Motor skill-->
+      <div class="bg-orange-200 shadow-xl hover:scale-105 transition-transform duration-300 p-6 rounded">
+        <div class="mb-4 text-red-500 text-3xl">🏃‍♂️</div>
+        <h2 class="text-xl font-bold mb-2">Motor Skills</h2>
+        <p class="text-gray-700 mb-4">Motor skills development focuses on enhancing a child’s ability to move, control, and coordinate their body effectively.</p>
+        <button class="border px-4 py-2 rounded"><a href="Motor Skills.html">Explore More</a></button>
+      </div>
+
+      <!--learning support-->
+      <div class="bg-white shadow-xl hover:scale-105 transition-transform duration-300 p-6 rounded">
+        <div class="mb-4 text-red-500 text-3xl ">🧠</div>
+        <h2 class="text-xl font-bold mb-2"> Cognitive and Learning</h2>
+        <p class="text-gray-700 mb-4">Strengthening attention, memory, learning abilities</p>
+        <button class="border px-4 py-2 rounded"><a href="Cognitive and Learning Disorders.html">Explore More</a></button>
+      </div>
+
+      <!--EMotion -->
+      <div class="bg-orange-200 shadow-xl hover:scale-105 transition-transform duration-300 p-6 rounded">
+        <div class="mb-4 text-red-500 text-3xl">💭</div>
+        <h2 class="text-xl font-bold mb-2">Behavoural and Emotional</h2>
+        <p class="text-gray-700 mb-4">Motor skills development focuses on enhancing a child’s ability to move, control, and coordinate their body effectively.</p>
+        <button class="border px-4 py-2 rounded"><a href="Behavoural and Emotional.html">Explore More</a></button>
+      </div>
+
+      <!--social-->
+      <div class="bg-white shadow-xl hover:scale-105 transition-transform duration-300 p-6 rounded">
+        <div class="mb-4 text-red-500 text-3xl ">🤝</div>
+        <h2 class="text-xl font-bold mb-2"> Social and Emotional</h2>
+        <p class="text-gray-700 mb-4">Building confidence, Emotional regulation, and healthy social interractions.</p>
+        <button class="border px-4 py-2 rounded"><a href="Social and Emotional.html">Explore More</a></button>
+      </div>
+
+    <!--sensory-->
+      <div class="bg-orange-200 shadow-xl hover:scale-105 transition-transform duration-300 p-6 rounded">
+        <div class="mb-4 text-red-500 text-3xl ">❌</div>
+        <h2 class="text-xl font-bold mb-2">Sensory Processing</h2>
+        <p class="text-gray-700 mb-4">Helping children process and respond to sensory input more effictively.</p>
+        <button class="border px-4 py-2 rounded"><a href="sensoryprocessing.html">Explore More</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journey Start -->
+  <section class="bg-gray-100 py-10 px-4">
+    <h3 class="text-center text-lg font-semibold mb-4"><strong>Start your journey today</strong></h3>
+    <ul class="list-disc list-inside max-w-xl mx-auto">
+      <p><center><a href="https://docs.google.com/forms/d/e/1FAIpQLScyCDFxVBxLsh_UmF6Dh0F63ov6initdCvKAb52_L5iPXHZGQ/viewform?usp=header"><b>Book a consultation</b></a></center><p>
+      <p><center>Get a custom strategy</center><p>
+      <p><center>Access resources and feedback</center><p>
+    </ul>
+  </section>
+
+  <!-- Parent Resources -->
+  <section class="py-10 px-4">
+    <h3 class="text-lg font-semibold mb-2"><strong><center>Resources for Parents<center</strong></h3>
+    <ul class="list-disc list-inside">
+      <p><mild><center>Root Plan Consultation:</mild> Personalized discussion with professionals.</center><p>
+      <p><mild><center>Solution Library:</mild> Browse content tailored to your child’s needs.</center><p>
+      <p><mild><center>Contact Form:</mild> Connect with our team for support.</center><p>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6 text-center">
+    <p class="font-semibold mb-2">Let’s Connect!</p>
+    <div class="space-x-4">
+      <a href="newf1.html" class="hover:underline">Home</a>
+      <a href="#" class="hover:underline"><a href="about.html">About</a></a>
+      <a href="https://chatgpt.com/" class="hover:underline">Resources</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSce8eBqaL6mjmtu7IRBP83pvSmbDvtveEXQVVbfidRFAf7Z6Q/viewform?usp=header">Contact Us</a>
+      <!-- <a href="" class="hover:underline"></a> -->
+    </div>
+    <p class="mt-4 text-sm">© 2025 Child Support Solutions</p>
+  </footer>
+</body>
+</html>

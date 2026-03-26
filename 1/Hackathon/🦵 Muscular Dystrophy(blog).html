@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muscular Dystrophy in Children</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-50 text-gray-800 font-sans leading-relaxed">
+
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <h1 class="text-4xl font-bold text-center text-red-700 mb-10">🦵 Muscular Dystrophy in Children</h1>
+
+    <!-- Description -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-red-800 mb-4">📖 Description</h2>
+      <p class="text-lg">
+        Muscular Dystrophy (MD) is a group of genetic disorders that cause progressive weakness and loss of muscle mass. In children, it often begins with difficulties in walking, running, or climbing stairs. Over time, muscles may weaken further, affecting mobility and independence. 🧬💪
+      </p>
+    </section>
+
+    <!-- Symptoms -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-red-800 mb-4">🔍 Symptoms</h2>
+      <ul class="list-disc list-inside text-lg space-y-2">
+        <li>Frequent falls or difficulty getting up from the floor 🤕</li>
+        <li>Waddling gait or walking on toes 👣</li>
+        <li>Muscle weakness in arms and legs 🪫</li>
+        <li>Enlarged calf muscles (pseudohypertrophy) 🦵</li>
+        <li>Fatigue and trouble climbing stairs or running 🧗‍♂️</li>
+      </ul>
+    </section>
+
+    <!-- Solutions -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-red-800 mb-4">💡 Solutions</h2>
+      <p class="text-lg mb-4">
+        While there is no cure, supportive care can significantly improve quality of life and slow progression:
+      </p>
+      <ul class="list-disc list-inside text-lg space-y-2">
+        <li>Physical therapy to maintain muscle function and flexibility 🧘‍♂️</li>
+        <li>Assistive devices like braces, walkers, or wheelchairs 🦯</li>
+        <li>Regular monitoring by a neurologist and heart/lung specialists 🧑‍⚕️❤️</li>
+        <li>Medications such as corticosteroids to slow muscle degeneration 💊</li>
+        <li>Occupational therapy for daily activity independence 🪥🎽</li>
+      </ul>
+    </section>
+
+    <!-- Action Plan -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-red-800 mb-4">📝 Action Plan</h2>
+      <div class="bg-white p-6 rounded-xl border-2 border-red-300 shadow-md">
+        <ol class="list-decimal list-inside text-lg space-y-3">
+          <li>📋 Note any motor delays, fatigue, or unusual walking patterns in your child.</li>
+          <li>🧬 Seek genetic testing and a neurologist’s evaluation for a confirmed diagnosis.</li>
+          <li>🏃‍♀️ Start physical and occupational therapy early to maintain mobility.</li>
+          <li>🛠️ Explore assistive technology and tools for home and school life.</li>
+          <li>👨‍👩‍👧‍👦 Join support groups and connect with specialists for long-term care planning.</li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="text-center mt-12">
+      <p class="text-lg font-medium">🌈 With proactive care and compassion, children with Muscular Dystrophy can live fulfilling and joyful lives.</p>
+    </div>
+  </div>
+
+<!-- Code injected by live-server -->
+<script>
+  if ('WebSocket' in window) {
+    (function () {
+      function refreshCSS() {
+        var sheets = [].slice.call(document.getElementsByTagName("link"));
+        var head = document.getElementsByTagName("head")[0];
+        for (var i = 0; i < sheets.length; ++i) {
+          var elem = sheets[i];
+          var parent = elem.parentElement || head;
+          parent.removeChild(elem);
+          var rel = elem.rel;
+          if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+          }
+          parent.appendChild(elem);
+        }
+      }
+      var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+      var address = protocol + window.location.host + window.location.pathname + '/ws';
+      var socket = new WebSocket(address);
+      socket.onmessage = function (msg) {
+        if (msg.data == 'reload') window.loc

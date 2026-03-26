@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cerebral Palsy in Children</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 text-gray-800 font-sans leading-relaxed">
+
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <h1 class="text-4xl font-bold text-center text-green-700 mb-10">💪 Cerebral Palsy in Children</h1>
+
+    <!-- Description -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">📖 Description</h2>
+      <p class="text-lg">
+        Cerebral Palsy (CP) is a group of disorders affecting movement, muscle tone, and posture. It is caused by brain damage or abnormal brain development, often occurring before or during birth. Children with CP may have difficulty controlling their muscles, which can affect their ability to perform daily tasks. 🧠🦽
+      </p>
+    </section>
+
+    <!-- Symptoms -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">🔍 Symptoms</h2>
+      <ul class="list-disc list-inside text-lg space-y-2">
+        <li>Muscle stiffness or weakness 💪</li>
+        <li>Difficulty with motor skills (e.g., walking, sitting, crawling) 🚶‍♀️</li>
+        <li>Spasticity (muscle tightness) or abnormal movement patterns 🤸‍♀️</li>
+        <li>Difficulty with coordination and balance ⚖️</li>
+        <li>Speech, swallowing, or breathing difficulties 🗣️</li>
+      </ul>
+    </section>
+
+    <!-- Solutions -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">💡 Solutions</h2>
+      <p class="text-lg mb-4">
+        Although Cerebral Palsy cannot be cured, there are many strategies and therapies that can improve the quality of life for children with CP. These approaches can help manage symptoms and provide opportunities for better mobility and independence:
+      </p>
+      <ul class="list-disc list-inside text-lg space-y-2">
+        <li>Physical therapy to improve movement and muscle strength 🏋️‍♂️</li>
+        <li>Occupational therapy to assist with fine motor skills 🖋️</li>
+        <li>Speech therapy to support communication and swallowing 🗣️</li>
+        <li>Orthotics (braces) or surgery to correct physical impairments 🦾</li>
+        <li>Medication to manage muscle spasticity and pain 💊</li>
+      </ul>
+    </section>
+
+    <!-- Action Plan -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">📝 Action Plan</h2>
+      <div class="bg-white p-6 rounded-xl border-2 border-green-300 shadow-md">
+        <ol class="list-decimal list-inside text-lg space-y-3">
+          <li>📋 Observe your child’s motor skills and any difficulties with movement.</li>
+          <li>👩‍⚕️ Consult with a pediatrician for an early diagnosis and a customized care plan.</li>
+          <li>📅 Start a therapy program involving physical, occupational, and speech therapy.</li>
+          <li>🦽 Incorporate adaptive equipment or aids, like braces or wheelchairs, as needed.</li>
+          <li>🌱 Provide consistent support and celebrate each achievement to boost confidence.</li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="text-center mt-12">
+      <p class="text-lg font-medium">🌟 With ongoing therapy and care, children with Cerebral Palsy can lead fulfilling and independent lives!</p>
+    </div>
+  </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
